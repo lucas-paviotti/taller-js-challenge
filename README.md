@@ -1,6 +1,7 @@
 ## 1 - Non-Constructible Change
 
-`const NonConstructibleChange = (coins) => {
+```
+const NonConstructibleChange = (coins) => {
 	let change = 1;
   const sortedCoins = coins.sort((a, b) => a - b);
   
@@ -9,8 +10,11 @@
   }
   
   return change;
-}`
+}
+```
 
 ## 2 - Sorted Squared Array
 
-`const SortedSquareArray = (arr) => arr.map((n) => Math.pow(n, 2)).sort((a, b) => a - b);`
+```
+const SortedSquareArray = (arr) => arr.map((n) => Math.pow(n, 2)).sort((a, b) => a - b);
+```
